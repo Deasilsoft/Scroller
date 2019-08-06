@@ -20,9 +20,9 @@ jQuery is required, version 3.3.1 or later is supported.
 
 `DeasilsoftScroller` accepts two parameters, respectively `links` and `options`.
 
-`links` is a simple array of HTML IDs prefixed with `#`.
+* `links` is a simple array of HTML IDs prefixed with `#`.
 
-`options` is an object with values used to configure the library.
+* `options` is an object with values used to configure the library.
 
 #### Options
 
