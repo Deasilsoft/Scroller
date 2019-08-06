@@ -1,5 +1,5 @@
 /**
- * Deasilsoft/Scroller v2.0
+ * Deasilsoft/Scroller v2.1
  * https://deasilsoft.com
  *
  * Copyright (c) 2018-2019 Deasilsoft
@@ -66,7 +66,9 @@ let DeasilsoftScroller = function (links, options = {}) {
     let isScrolling, currentIndex, resizeAction, touchBegin;
 
     // resolve options
-    $.extend(true, options, OPTIONS_DEFAULT);
+    options = $.extend(true, OPTIONS_DEFAULT, options);
+
+    console.log(options);
 
     /* EVENTS */
 
