@@ -1,5 +1,5 @@
 /**
- * Deasilsoft Scroller v2.0
+ * Deasilsoft/Scroller v2.0
  * https://deasilsoft.com
  *
  * Copyright (c) 2018-2019 Deasilsoft
