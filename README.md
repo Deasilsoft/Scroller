@@ -2,7 +2,7 @@
 
 A tiny library to handle navigation between HTML IDs.
 
-## Example of implementation
+## Example implementation
 
     <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="deasilsoft-scroller-2.0.js"></script>
@@ -26,7 +26,7 @@ jQuery is required, version 3.3.1 or later is supported.
 
 #### Options
 
-##### Explanations
+##### Explanations of options
 
 * `nav.classes.active` The class to add to targeted navigation link on page ID arrival.
 * `nav.paths.active` Path to active element to remove previously assigned class.
@@ -54,7 +54,7 @@ jQuery is required, version 3.3.1 or later is supported.
         },
     };
 
-##### Example usage
+##### Example usage of options
 
 Change `nav.classes.active` from `active` to `clicked`.
 
@@ -70,7 +70,7 @@ Change `nav.classes.active` from `active` to `clicked`.
         DeasilsoftScroller(["#home", "#products", "#about", "#contact"], options);
     </script>
 
-### Return values
+### Return values of DeasilsoftScroller
 
 `DeasilsoftScroller` returns a `Number`.
 
