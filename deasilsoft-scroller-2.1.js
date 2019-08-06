@@ -68,8 +68,6 @@ let DeasilsoftScroller = function (links, options = {}) {
     // resolve options
     options = $.extend(true, OPTIONS_DEFAULT, options);
 
-    console.log(options);
-
     /* EVENTS */
 
     // on document loaded
