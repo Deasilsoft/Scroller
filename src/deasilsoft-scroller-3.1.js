@@ -1,5 +1,5 @@
 /**
- * Deasilsoft/Scroller v3.0
+ * Deasilsoft/Scroller v3.1
  * https://deasilsoft.com
  *
  * Copyright (c) 2018-2020 Deasilsoft
@@ -126,9 +126,11 @@ $.extend(Deasilsoft, {
             // set location touch ended
             let touchEnd = e.originalEvent.changedTouches[0].clientY;
 
-            // if distance between touches is less than negative threshold: scroll to previous link, otherwise scroll to next link
+            // if distance between touches is less than threshold: scroll to previous link
             if (touchBegin - touchEnd < $(window).height() * -options.TouchThreshold) ScrollToPreviousLink();
-            else ScrollToNextLink();
+
+            // if distance between touches is more than threshold: scroll to next link
+            else if (touchBegin - touchEnd > $(window).height() * options.TouchThreshold) ScrollToNextLink();
         });
 
         // on navigation link click
