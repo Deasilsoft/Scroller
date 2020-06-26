@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Simple Example - Scroller - Deasilsoft</title>
+    <style type="text/css">
+        body
+        {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        body > header
+        {
+            position: fixed;
+            top: 0;
+            width: 100vw;
+            background: black;
+            z-index: 100;
+        }
+
+        body > header ul
+        {
+            list-style: none;
+        }
+
+        body > header ul li
+        {
+            display: inline-block;
+            margin: 0;
+        }
+
+        body > header a
+        {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .active a
+        {
+            background: white;
+            color: black;
+        }
+
+        article
+        {
+            display: flex;
+            height: 100vh;
+            overflow-y: auto;
+            font: 100px Helvetica;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #home
+        {
+            background: red;
+        }
+
+        #products
+        {
+            background: green;
+        }
+
+        #about
+        {
+            background: blue;
+        }
+
+        #contact
+        {
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <article id="home">
+        Homepage
+    </article>
+    <article id="products">
+        Products
+    </article>
+    <article id="about">
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+        About<br>
+    </article>
+    <article id="contact">
+        Contact
+    </article>
+</main>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../src/deasilsoft-scroller-3.0.min.js"></script>
+<script type="text/javascript">
+    Deasilsoft.Scroller(["#home", "#products", "#about", "#contact"]);
+</script>
+</body>
+</html>
