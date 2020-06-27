@@ -63,11 +63,11 @@ $.extend(Deasilsoft, {
 
         /* INITIALIZATION */
 
-        // initialize variables
-        let isScrolling = false, scrollAction = null, resizeAction = null, currentIndex, touchBegin;
-
         // resolve options
         options = $.extend(true, DEFAULTS, options);
+
+        // initialize variables
+        let scrollAction = null, resizeAction = null, currentIndex = options.LoadLink, touchBegin;
 
         /* EVENTS */
 
