@@ -1,5 +1,5 @@
 /**
- * Deasilsoft/Scroller v3.1
+ * Deasilsoft/Scroller v3.2
  * https://deasilsoft.com
  *
  * Copyright (c) 2018-2020 Deasilsoft
