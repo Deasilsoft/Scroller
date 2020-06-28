@@ -2,7 +2,7 @@
 
 Navigate your web page with a smooth scrolling animation.
 
-Live demo on [our website](https://deasilsoft.com).
+Live demo on [our website](https://deasilsoft.com) and [on github pages](https://deasilsoft.github.io/Scroller/example/simple.html).
 
 ## Usage
 
