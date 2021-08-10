@@ -5,6 +5,16 @@ Navigate your web page with a smooth scrolling animation.
 Live demonstration on [our website](https://deasilsoft.com)
 and [on GitHub pages](https://deasilsoft.github.io/Scroller/example/simple.html).
 
+[![Code Inspector Score](https://www.code-inspector.com/project/26274/score/svg)](https://frontend.code-inspector.com/project/26274/dashboard)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/deasilsoft/scroller/master?label=CodeFactor&logo=codefactor&logoWidth=18)](https://www.codefactor.io/repository/github/deasilsoft/scroller)
+[![LGTM Alerts](https://img.shields.io/lgtm/alerts/github/Deasilsoft/Scroller?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Deasilsoft/Scroller/context:javascript)  
+[![Github Watchers](https://img.shields.io/github/watchers/deasilsoft/Scroller?logo=github&logoWidth=18)](https://github.com/Deasilsoft/Scroller/watchers)
+[![Github Stars](https://img.shields.io/github/stars/deasilsoft/Scroller?logo=github&logoWidth=18)](https://github.com/Deasilsoft/Scroller/stargazers)
+[![Github Forks](https://img.shields.io/github/forks/deasilsoft/Scroller?logo=github&logoWidth=18)](https://github.com/Deasilsoft/Scroller/network/members)
+[![Github Issues](https://img.shields.io/github/issues-raw/deasilsoft/Scroller?logo=github&logoWidth=18)](https://github.com/Deasilsoft/Scroller/issues)
+[![Github Contributors](https://img.shields.io/github/contributors/deasilsoft/Scroller?logo=github&logoWidth=18)](https://github.com/Deasilsoft/Scroller/pulls)
+[![Github Commits](https://img.shields.io/github/last-commit/deasilsoft/Scroller?logo=github&logoWidth=18)](https://github.com/Deasilsoft/Scroller/commits/master)
+
 ---
 
 ## Requirements
