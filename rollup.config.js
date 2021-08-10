@@ -1,5 +1,5 @@
 import {babel} from "@rollup/plugin-babel";
-import {uglify} from "rollup-plugin-uglify";
+import {terser} from "rollup-plugin-terser";
 
 export default {
     input: "src/scroller.js",
@@ -21,8 +21,7 @@ export default {
                     {
                         modules: false,
                         targets: {
-                            browsers: "> 1%, not dead",
-                            node: 8
+                            browsers: "> 1%, not dead"
                         },
                         useBuiltIns: "usage",
                         corejs: 3
@@ -39,9 +38,9 @@ export default {
             ]
 
         }),
-        uglify({
-            output: {
-                comments: "some"
+        terser({
+            mangle: {
+                reserved: ["links", "userOptions"]
             }
         })
     ]

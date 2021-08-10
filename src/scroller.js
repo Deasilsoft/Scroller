@@ -6,11 +6,16 @@ window.Deasilsoft = window.Deasilsoft !== undefined ? window.Deasilsoft : {};
 
 $.extend(window.Deasilsoft, {
     /**
-     * Deasilsoft/Scroller version 2021.8.0
+     * Deasilsoft/Scroller (2021.8.0)
+     *
      * Navigate your web page with a smooth scrolling animation.
      *
+     * @author Deasilsoft
+     * @copyright Copyright (c) 2018-2021 Deasilsoft
+     *
+     * @licence MIT License
+     *
      * Copyright (c) 2018-2021 Deasilsoft
-     * https://deasilsoft.com
      *
      * Permission is hereby granted, free of charge, to any person obtaining a copy
      * of this software and associated documentation files (the "Software"), to deal
@@ -30,10 +35,15 @@ $.extend(window.Deasilsoft, {
      * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
      * SOFTWARE.
      *
+     * @link https://deasilsoft.com/
+     * @see jQuery
+     *
      * @param {String[]} links
      * @param {Object} userOptions
-     * @return {Number} error code (-1 invalid links parameter, -2 invalid userOptions parameter)
-     * @preserve
+     *
+     * @return {Number} 1 success, -1 invalid links parameter, -2 invalid userOptions parameter
+     *
+     * @constructor
      */
     Scroller: (links, userOptions = {}) =>
     {
