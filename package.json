@@ -1,0 +1,42 @@
+{
+  "name": "scroller",
+  "description": "Navigate your web page with a smooth scrolling animation.",
+  "version": "2021.8.0",
+  "scripts": {
+    "dist": "rollup -c",
+    "lint": "eslint src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deasilsoft/Scroller.git"
+  },
+  "keywords": [
+    "jQuery",
+    "Scroller",
+    "Page",
+    "CSS",
+    "HTML",
+    "Design",
+    "Smooth",
+    "Paging"
+  ],
+  "author": "Deasilsoft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Deasilsoft/Scroller/issues"
+  },
+  "homepage": "https://deasilsoft.com/",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "latest",
+    "@rollup/plugin-babel": "latest",
+    "core-js": "^3.16.1",
+    "eslint": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-import": "latest",
+    "rollup": "latest",
+    "rollup-plugin-uglify": "latest"
+  }
+}
